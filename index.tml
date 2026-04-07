@@ -519,15 +519,16 @@
     
     <script>
         // Configuração do Firebase (substitua com suas credenciais REAIS)
-        const firebaseConfig = {
-          apiKey: "AIzaSyAHuqEk_oWEI8CMoozQjBVTZiJXEkH44_8",
-          authDomain: "mapa-z2.firebaseapp.com",
-          databaseURL: "https://mapa-z2-default-rtdb.europe-west1.firebasedatabase.app",
-          projectId: "mapa-z2",
-          storageBucket: "mapa-z2.firebasestorage.app",
-          messagingSenderId: "28471807080",
-          appId: "1:28471807080:web:2fac85ec9aefe915423fdd"
-        };
+          const firebaseConfig = {
+            apiKey: "AIzaSyDfIXivmVzOgaiCmRH8LzgC-mr7JKzIFdQ",
+            authDomain: "zonav2-4e6d1.firebaseapp.com",
+            databaseURL: "https://zonav2-4e6d1-default-rtdb.europe-west1.firebasedatabase.app",
+            projectId: "zonav2-4e6d1",
+            storageBucket: "zonav2-4e6d1.firebasestorage.app",
+            messagingSenderId: "918790965142",
+            appId: "1:918790965142:web:5728a4b1b63e3185a37fb7",
+            measurementId: "G-T2D2L4Y9S6"
+          };
         // Inicializar Firebase
         let firebaseApp;
         try {
